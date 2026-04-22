@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block Next.js internals from crawlers
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://f9.ng/sitemap.xml
